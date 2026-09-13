@@ -115,6 +115,31 @@ new/ is the destination directory
 All files are copied into new/ with their original names
 
 
+Linux Command # 4 : mkdir (create directory command)
+
+How to Create Directory in Linux | mkdir Command
+
+The mkdir command in Linux stands for “make directory” and is used to create new folders quickly and efficiently from the terminal.
+
+It helps users organize their files by creating one or multiple directories at once, with options to set permissions and create nested folders easily.
+Used to create new directories within the Linux file system.
+Allows the creation of multiple directories simultaneously in a single command.
+
+Examples
+1) How to create a directory in Linux using the `mkdir` command?
+To create a single directory, use the following syntax:
+
+For Example: 
+
+If we want to create a directory name "jayesh_gfg".
+
+Syntax:
+
+mkdir jayesh_gfg
+This command creates a directory named "jayesh_gfg" in the current location. You can replace "jayesh_gfg" with any name you prefer.
+
+
+
 
 ####################################################################
 
