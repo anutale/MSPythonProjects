@@ -291,6 +291,22 @@ grep [options] pattern [files]
 [pattern]: This is the regular expression you want to search for.
 [file]: This is the name of the file(s) you want to search within. You can specify multiple files for simultaneous searching.
 
+Linux Command # 15 : man
+
+How to Read Manual Pages in Linux | man Command
+
+The "man" command, short for manual, is a powerful tool in the Linux operating system that allows users to access detailed information about various commands, utilities, and system calls. The "man" command provides comprehensive documentation, helping users understand how to use and configure different elements of the Linux environment. This article will explore the "man" command in detail, covering its syntax, and options, and providing practical examples.
+
+The basic syntax of the "man" command is as follows:
+
+man [option] [command]
+Here,
+
+"option" refers to additional flags that modify the behavior of the "man" command,
+
+"command" is the Linux command or utility for which you want to access the manua
+
+
 
 
 
