@@ -139,11 +139,32 @@ mkdir jayesh_gfg
 This command creates a directory named "jayesh_gfg" in the current location. You can replace "jayesh_gfg" with any name you prefer.
 
 
+Linux command # 5 : rmdir to (to remove directories)
+
+rmdir Command in Linux With Examples
+
+The rmdir command in Linux is used to safely remove empty directories from the filesystem.
+
+Specifically designed to delete only empty directories.
+Unlike the rm command, it cannot delete files or non-empty directories.
+Ensures data safety by verifying that the directory is empty before deletion.
+Helps maintain a clean and organized directory structure.
+Commonly used for system cleanup and managing temporary or unused folders.
+
+Example 1: Remove a single empty directory:
+rmdir test
+
+Example 2: Remove multiple empty directories:
+rmdir dir1 dir2 dir3
+
 
 
 ####################################################################
 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Git Commands~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+###################################################################
+
 
 INSTALLATION & GUIS
 With platform specific installers for Git, GitHub also provides the 
