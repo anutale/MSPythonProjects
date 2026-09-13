@@ -166,11 +166,21 @@ To print the current working directory, simply enter:
 
 pwd
 
+Linux Command # 7 : CHMOD
+
+chmod Command in Linux
+
+The chmod (change mode) command in Linux/UNIX is used to modify file and directory permissions. It controls who can read, write, or execute a file by setting access rights for the owner, group, and others. Let’s use the chmod command to set the permission to 745.
+
+Command:
+
+chmod 745 newfile.txt
+
 
 
 ####################################################################
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Git Commands~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~Git Commands~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ###################################################################
 
