@@ -257,6 +257,19 @@ To get detailed information about a specific user, simply use the 'finger' comma
 
 $finger manav
 
+Linux Command # 13 : df 
+
+df Command in Linux
+
+The df command in Linux is used to display disk space usage of mounted file systems. It provides information about total space, used space, available space, and the percentage of usage for each file system.
+
+Can display output in human-readable format.
+Useful for system monitoring and storage management.
+Example 1: Display Disk Usage of All Mounted File Systems
+Command:
+
+df
+
 
 
 ####################################################################
