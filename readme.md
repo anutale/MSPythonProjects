@@ -176,6 +176,20 @@ Command:
 
 chmod 745 newfile.txt
 
+Linux Command # 8 : more
+
+more command in Linux with Examples
+
+The more command in Linux is used to view the contents of a text file one screen (or page) at a time in the terminal, allowing users to scroll through long files easily.
+
+Forward navigation only - you can move ahead line by line (Enter) or page by page (Space).
+Cannot scroll backward, unlike the less command.
+Useful for reading logs, configuration files, or command outputs (cat file.txt | more or more file.txt).
+You can search text within a file by typing /pattern.
+Example
+The command used to display the contents of a file one page at a time.
+
+more sample.txt
 
 
 ####################################################################
