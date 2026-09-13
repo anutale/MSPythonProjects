@@ -204,6 +204,26 @@ Example : To find a file named "example.txt" in the home directory, you would us
 
 find ./gfg -name "sample.txt"
 
+Linux Command # 10 : kill
+
+kill Command in Linux
+
+The kill command in Linux is used to send signals to processes in order to control their execution. It is commonly used to terminate processes, but it can also pause, resume, or perform other actions depending on the signal sent. The kill command sends signals to processes using their Process ID (PID).
+
+Located in /bin/kill , it’s a built-in Linux command.
+Sends specific signals to processes using their Process ID (PID).
+By default, it sends the SIGTERM (15) signal to terminate a process.
+Can use other signals like SIGKILL (9) or SIGSTOP (19) for different actions.
+Example: Killing the Mozilla Firefox Process
+Terminate the Mozilla Firefox browser process when it becomes unresponsive or needs to be closed from the terminal.
+
+Step 1: Identify the Firefox PID
+Check the running Firefox processes and their PIDs.
+
+Command:
+
+ps aux | grep firefox
+
 
 
 ####################################################################
