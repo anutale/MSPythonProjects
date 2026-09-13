@@ -270,6 +270,28 @@ Command:
 
 df
 
+Linux Command # 14 : grep
+
+grep command in Unix/Linux
+
+The grep command is one of the most useful tools in Linux and Unix systems. It is used to search for specific words, phrases, or patterns inside text files, and shows the matching lines on your screen.
+
+grep Command is useful when you need to quickly find certain keywords or phrases in logs or documents. Let’s consider an example:
+
+Search for a word in a file
+If you have a file called notes.txt and you want to find all lines containing the word Python, you can use:
+
+grep "python" notes.txt
+
+Syntax of grep Command in Unix/Linux
+The basic syntax of the `grep` command is as follows:
+
+grep [options] pattern [files]
+[options]: These are command-line flags that modify the behavior of grep. 
+[pattern]: This is the regular expression you want to search for.
+[file]: This is the name of the file(s) you want to search within. You can specify multiple files for simultaneous searching.
+
+
 
 
 ####################################################################
