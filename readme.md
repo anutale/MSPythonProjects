@@ -1,6 +1,6 @@
 Linux Commands :
 
-Linux Command # 1 
+Linux Command # 1 : cat command 
 
 Cat Command in Linux
 
@@ -22,6 +22,30 @@ cat file_name
 Example:
 
 cat jayesh.txt
+
+
+Linux Command # 2 : cd
+
+Changing the Directory in Linux | cd Command
+
+The cd (Change Directory) command in Linux is used to navigate between directories in the file system.
+
+It allows users to move from the current working directory to another specified directory by providing either an absolute path or a relative path.
+This command is essential for exploring different locations within the Linux environment and managing files efficiently.
+Examples:
+Here are some commonly used examples of the cd command in Linux.
+
+1. Move Inside a Subdirectory
+To move inside a subdirectory in Linux use the CD Linux Command. Here, replace [directory_name] with the desired directory you want to move in.
+
+Syntax:
+
+cd [directory_name]
+Example:
+
+cd Documents
+
+
 
 
 INSTALLATION & GUIS
