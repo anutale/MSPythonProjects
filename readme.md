@@ -157,6 +157,15 @@ rmdir test
 Example 2: Remove multiple empty directories:
 rmdir dir1 dir2 dir3
 
+Linux Command # 6 : pwd
+
+Displaying the Current Working Directory in Linux | pwd Command
+
+Displaying the Current Working Directory
+To print the current working directory, simply enter:
+
+pwd
+
 
 
 ####################################################################
