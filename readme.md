@@ -224,6 +224,24 @@ Command:
 
 ps aux | grep firefox
 
+Linux Command # 11 : ps
+
+ps Command in Linux
+
+The ps command in Linux is used to display information about currently running processes. It provides a snapshot of processes at the time the command is executed. System administrators commonly use it to monitor processes, troubleshoot issues, and identify resource usage.
+
+Display currently running processes on a Linux system
+Identify process IDs (PIDs) for management tasks like stopping processes
+View process ownership, CPU usage, and memory consumption
+Inspect background processes and system services
+Filter processes based on users, IDs, terminals, or command names
+Example: Display Processes in the Current Terminal
+This command displays the processes running in the current shell session. When executed without options, the ps command only shows processes associated with the current terminal.
+
+Command:
+
+ps
+
 
 
 ####################################################################
