@@ -242,6 +242,21 @@ Command:
 
 ps
 
+Linux Command # 12 : finger
+
+Finger command in Linux with Examples
+
+The 'finger' command is a powerful utility in Linux used to display information about users logged into the system. This command is commonly used by system administrators to retrieve detailed user information, including login name, full name, idle time, login time, and sometimes the user's email address. The 'finger' command offers more comprehensive details compared to the 'pinky' command, which is a lighter version with limited output.
+
+
+Working with finger User Information Lookup Tool
+Once installed, the 'finger' command can be used to fetch detailed information about users on your Linux system. Here are some common ways to use this command:
+
+1. Retrieving User Information
+To get detailed information about a specific user, simply use the 'finger' command followed by the username.
+
+$finger manav
+
 
 
 ####################################################################
