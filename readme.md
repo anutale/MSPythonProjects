@@ -1,4 +1,33 @@
-NSTALLATION & GUIS
+Linux Commands :
+
+Linux Command # 1 
+
+Cat Command in Linux
+
+The cat (concatenate) command in Linux is used to view, create, and combine file contents directly from the terminal. It allows users to quickly work with file content without opening a text editor.
+
+Primarily used to display the contents of files on the terminal.
+Can concatenate multiple files and display them as a single continuous output.
+Helps in creating new files or appending data to existing ones.
+Useful for quick file inspection, debugging, and scripting tasks without opening a text editor.
+Examples
+Below are some basic and commonly used examples of the cat command in Linux.
+
+1: View the Content of a Single File in Linux
+To display the content of a single file in the terminal.
+
+Syntax: 
+
+cat file_name
+Example:
+
+cat jayesh.txt
+
+
+
+
+
+INSTALLATION & GUIS
 With platform specific installers for Git, GitHub also provides the 
 ease of staying up-to-date with the latest releases of the command
 line tool while providing a graphical user interface for day-to-day
