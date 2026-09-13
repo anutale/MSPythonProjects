@@ -191,6 +191,20 @@ The command used to display the contents of a file one page at a time.
 
 more sample.txt
 
+Linux Command # 9 : find
+
+Find Command in Linux
+
+The find command in Linux is used to search for files and directories based on name, type, size, date, or other conditions. It scans the specified directory and its sub directories to locate files matching the given criteria.
+
+Search based on modification time (e.g., files edited last week).
+Locate files with specific permissions or content.
+Automate tasks like deleting or executing commands on found files.
+Example : To find a file named "example.txt" in the home directory, you would use:
+
+find ./gfg -name "sample.txt"
+
+
 
 ####################################################################
 
