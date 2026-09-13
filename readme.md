@@ -46,7 +46,79 @@ Example:
 cd Documents
 
 
+Linux Command # 3 : cp command
 
+cp Command in Linux
+
+The cp (copy) command in Linux is used to duplicate files or directories from one location to another within the file system. It supports copying single files, multiple files, and entire directories, with options to control overwriting and attribute preservation.
+
+Copy data from one file to another
+Copy multiple files into a directory
+Recursively copy directories and subdirectories
+Overwrite existing files by default
+It offers three principal modes of operation, each serving different purposes.
+
+1. Copying Between Two Files in Linux
+When the cp command is provided with two file names, it copies the contents of the source file to the destination file.
+
+If the destination file does not exist, it is created.
+If the destination file already exists, it is overwritten without warning.
+cp Sorce_file Destination_file
+Example 1: Copy to a New File
+
+Create a new file by copying the contents of an existing file.
+
+cp a.txt b.txt
+a.txt exists in the directory
+b.txt does not exist, so it is created
+Contents of a.txt are copied into b.txt
+
+Example 2: Overwrite an Existing File
+
+Replace the contents of an existing file with another file’s contents.
+
+cp a.txt c.txt
+c.txt already exists
+Its contents are replaced with the contents of a.txt
+
+
+Syntax
+The cp command has a flexible syntax depending on whether you are copying a single file, multiple files, or directories.
+
+cp [options] <source> <destination>
+cp [options] <source1> <source2> ... <destination_directory>
+cp: invokes the copy command
+[options]: optional flags that modify the behavior (e.g., -i, -f, -r, -p)
+<source>: the file or directory to be copied
+<source1> <source2> ...: allows specifying multiple source files
+<destination>: target file or directory
+<destination_directory>: if copying multiple files, the destination must be a directory
+...: indicates that multiple sources can be specified
+
+
+2. Copy files to a Directory in Linux
+When the cp command is given one or more source files followed by a destination directory, it copies each source file into the destination directory using the same file names.
+
+f the destination directory does not exist, it is created.
+If files with the same name already exist in the destination, they are overwritten without warning.
+cp Src_file1 Src_file2 ... Dest_directory
+Src_file1 Src_file2 ...: one or more source files
+Dest_directory: directory where files are copied
+...: indicates that multiple source files can be specified
+Example: Copy Multiple Files to a Directory
+
+Copy several files into a single directory in one command.
+
+cp a.txt b.txt c.txt new/
+a.txt, b.txt, and c.txt are source files
+new/ is the destination directory
+All files are copied into new/ with their original names
+
+
+
+####################################################################
+
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Git Commands~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 INSTALLATION & GUIS
 With platform specific installers for Git, GitHub also provides the 
